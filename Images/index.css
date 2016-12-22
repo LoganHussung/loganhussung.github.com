@@ -1,39 +1,55 @@
 html,
 body {
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0;
 }
-.header {
-  background-image: url('minneapolis-skyline.jpg');
-  background-position: center;
-  height: 300px;
-}
-.navBar {
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.navItem {
-  padding: 20px;
-}
-.bodyContainer {
-  display: flex;
-  flex-wrap: wrap;
-}
-.rowPicture {
-  width: 35%;
-}
-.rowPicture img {
-  width: 100%;
-}
-.rowDescription {
+.container {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  width: 65%;
+  margin: 20px 350px;
+}
+
+.container img {
+  border-radius: 1000px;
+}
+
+h2 {
+  color: #CDCFD9;
+}
+
+h3 {
+  color: #303F9F;
+}
+
+.twitter {
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.github {
+  color: orange;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.linkedin {
+  color: navy;
+  cursor: pointer;
+  text-decoration: none;
+}
+.medium {
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+}
+.email {
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
 }
