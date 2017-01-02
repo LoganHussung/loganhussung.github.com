@@ -4,19 +4,149 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Logan Hussung | Front End Developer</title>
+  <title>Logan Hussung | Front End Developer | UX Designer</title>
   <link rel="stylesheet" href="/Images/index.css">
+  <link rel="stylesheet" href="/Images/hover.css">
+  <link rel="stylesheet" type="text/css" href="./node_modules/evil-icons/assets/evil-icons.css">
   <link rel="icon"
       type="image/ico"
       href="./Images/logo.ico">
+  <script src="/src/index.js" type="text/javascript"></script>
+
 </head>
 <body>
-  <div class="container">
-    <img src="Images/logan.jpg" alt="">
-    <h1> HELLO WORLD! I'M LOGAN.</h1>
-    <h2> I AM A FRONT END DEVELOPER AND DESIGNER.</h2>
-    <h3> MY NEW WEBSITE IS CURRENTLY IN DEVELOPMENT AND WILL BE READY FOR YOUR EYE'S CONSUMPTION SOON. </h3>
-    <h2> FOR NOW YOU CAN LEARN MORE ABOUT ME ON <a class="twitter" href="https://twitter.com/logan_hussung">TWITTER</a>, <a class="linkedin" href="https://www.linkedin.com/in/logan-hussung">LINKEDIN</a>, <a class="github" href="https://github.com/LoganHussung">GITHUB</a>, <a class="medium" href="https://medium.com/@hussu072">MEDIUM</a> OR JUST MESSAGE ME AT<a class="email" href="mailto:loganhussung89@gmail.com"> loganhussung89@gmail.com</a></h2>
+  <div class="topBar">
+    <a href="#aboutMe">About Me</a>
+    <a href="#skillsPage">Skills</a>
+    <a href="#pastWorkPage">Past Work</a>
+    <a href="#funFactsPage">Fun Facts </a>
+    <a href="#contactPage">Contact</a>
   </div>
+  <div class="container">
+    <div class="blackBar"></div>
+    <div class="divBar"></div>
+    <div class="header">
+      <img src="./Images/logan.jpg" alt="Logan">
+      <div class="headerText">
+        <h1>Logan Hussung</h1>
+        <p>Front End Developer</p>
+        <p>UX Designer</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/logan-hussung">
+            <div data-icon="ei-sc-linkedin" data-size="s" class="socialIcon"></div>
+          </a>
+
+          <a href="https://www.instagram.com/loganhussung/">
+            <div data-icon="ei-sc-instagram" data-size="s" class="socialIcon"></div>
+          </a>
+
+          <a href="https://twitter.com/logan_hussung">
+            <div data-icon="ei-sc-twitter" data-size="s" class="socialIcon"></div>
+          </a>
+
+          <a href="https://github.com/LoganHussung">
+            <div data-icon="ei-sc-github" data-size="s" class="socialIcon"></div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="bodySection">
+        <h1 id="aboutMe">About Me</h1>
+          <p class="aboutMeText">Hello! My name is Logan. I am a front end developer and UX designer. I enjoy building websites and applications with the user's experience in mind. I aim to create beautiful looking products that are also easy and enjoyable to use. I am currently looking to start my journey in tech and excited to become a part of a growing community.</p>
+          <h4>Who am I?</h4>
+          <p class="aboutMeText">I am a foodie, techie, gamer, movie buff, coder, and thinker. I am aiming to add bookworm, traveler and chef to that list. In my free time, I am either with friends or in front of a computer thinking up new ideas to improve the lives of people around me. This site will grow and evolve with new skills I learn along my journey. </p>
+        <img src="./Images/aboutmepic.jpg" alt="Logan" class="aboutMePic">
+      </div>
+      <div class="bodySection skills">
+        <h1 id="skillsPage">Skills</h1>
+        <h5>Languages</h5>
+        <p> HTML | CSS skills | Javascript</p>
+        <h5>Frameworks</h5>
+        <p> JQuery | React JS | React Native </p>
+        <h5>Tools</h5>
+        <p>Adobe XD | Photoshop | Responsive Website Design | Wireframe Production | Bootstrap/Flexbox | Github </p>
+      </div>
+      <div class="bodySection pastWork">
+        <h1 id="pastWorkPage">Past Work</h1>
+        <div class="singleProject">
+          <a href="http://teslaofminneapolis.herokuapp.com/">
+            <img class="hvr-pulse-grow" src="./Images/tesla.jpg" alt="Tesla of Minneapolis">
+          </a>
+          <div class="projectInfo">
+            <a href="http://teslaofminneapolis.herokuapp.com/"><h4 class="hvr-underline-from-left">Tesla of Minneapolis</h4></a>
+            <p>This group project was built during my time at the Iron Yard. It is a site for a fictional regional branch of Tesla which offers Tesla cars for purchase to consumers. This is an educational project that is not created or endorsed by Tesla and does not offer real Teslas for sale.</p>
+            <p>The front end of the site was built using React JS. The initial planning was done in Adobe XD, where we layed out the project in a high fidelity mockup. We used Axios to make our API calls to our back end team.</p>
+            <p>Within the project, one is able to view the different models Tesla offers, as well as chargers. These products can be added to a cart and subsequently “ordered”. </p>
+          </div>
+        </div>
+        <div class="singleProject">
+          <a href="https://netflixnchill.github.io/netflixnchill/">
+            <img class="hvr-pulse-grow" src="./Images/netflix.jpg" alt="Netflix and Chill">
+          </a>
+          <div class="projectInfo">
+            <a href="https://netflixnchill.github.io/netflixnchill/"><h4 class="hvr-underline-from-left">Netflix and Chill</h4></a>
+            <p>This app was created to make that stay-in date night easier for couples! Netflix 'N Chill gives the user two randomly generated items, one being a movie and the other a drink.</p>
+            <p>It's a very simple design that pulls two different API's into the project. It was our first experience pulling information from an API. The app was created as an assignment for The Iron Yard.</p>
+          </div>
+        </div>
+        <div class="singleProject">
+          <a href="https://loganhussung.github.io/personallistapp/">
+            <img class="hvr-pulse-grow" src="./Images/check.svg" alt="ToDo List">
+          </a>
+          <div class="projectInfo">
+            <a href="https://loganhussung.github.io/personallistapp/"><h4 class="hvr-underline-from-left">ToDo List</h4></a>
+            <p>This ToDo List App was built using React JS. This was my first experience with this language. The goal was to create a functional site that allows the user to track certain tasks in an organized manner. The user is able to cross out completed tasks but also remove them from the list if they wish. The list information is stored locally and the layout of the page was designed using flex box.  </p>
+          </div>
+        </div>
+      </div>
+      <div class="bodySection funFacts">
+        <h1 id="funFactsPage">Fun Facts</h1>
+        <img src="./Images/corgi.jpg" alt="hobby" class="hobbyPic">
+        <img src="./Images/xbox.jpg" alt="hobby" class="hobbyPic">
+        <img src="./Images/code.jpg" alt="hobby" class="hobbyPic">
+        <img src="./Images/food.jpg" alt="hobby" class="hobbyPic">
+        <img src="./Images/board.jpg" alt="hobby" class="hobbyPic">
+        <img src="./Images/japan.jpg" alt="hobby" class="hobbyPic">
+
+      </div>
+      <div class="bodySection">
+        <h1 id="contactPage">Contact</h1>
+      </div>
+  </div>
+  <div class="footer hvr-pulse-grow">
+    <a class="email" href="mailto:loganhussung89@gmail.com">
+      <h1>loganhussung89@gmail.com</h1>
+    </a>
+  </div>
+  <div class="bottomBar">
+    <div class="socialBottom">
+      <a href="https://www.linkedin.com/in/logan-hussung">
+        <div data-icon="ei-sc-linkedin" data-size="m" class="socialIconB"></div>
+      </a>
+
+      <a href="https://www.instagram.com/loganhussung/">
+        <div data-icon="ei-sc-instagram" data-size="m" class="socialIconB"></div>
+      </a>
+
+      <a href="https://twitter.com/logan_hussung">
+        <div data-icon="ei-sc-twitter" data-size="m" class="socialIconB"></div>
+      </a>
+
+      <a href="https://github.com/LoganHussung">
+        <div data-icon="ei-sc-github" data-size="m" class="socialIconB"></div>
+      </a>
+    </div>
+    <div class="return">
+      <a href="#top">
+        <div data-icon="ei-arrow-up" data-size="m" class="backTotop"></div>
+        <span>Back to Top</span>
+      </a>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.js"></script>
 </body>
 </html>
