@@ -42,8 +42,9 @@ body {
 
 .headerText h1 {
   color: white;
-  font-family: Times;
+  font-family: Helvetica;
   font-size: 1.7rem;
+  font-weight: lighter;
   margin: 0;
   padding: 0;
 }
